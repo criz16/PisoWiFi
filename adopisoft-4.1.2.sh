@@ -13,7 +13,7 @@ dpkg --print-architecture
 wget https://github.com/AdoPiSoft/Releases/releases/download/4.1.2/adopisoft-4.1.2-release-amd64-node-v12.18.3.deb
 sudo apt-get install ./adopisoft-4.1.2-release-amd64-node-v12.18.3.deb
  
-sudo systemctl disable ssh
+#sudo systemctl disable ssh
  
  
 #wget https://gist.githubusercontent.com/alenteria/791dbe32175a01d1f1b602b25489ad22/raw/9a5aa879ac70d24bd9a7dd7f8ed97d7fe2c2f597/ado-psql-script.sh 
