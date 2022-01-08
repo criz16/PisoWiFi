@@ -9,9 +9,13 @@ sudo apt-get install -y hostapd dmidecode build-essential openssh-server python-
  
 dpkg --print-architecture
  
- 
+### VERSION 4.1.2 ###
 wget https://github.com/AdoPiSoft/Releases/releases/download/4.1.2/adopisoft-4.1.2-release-amd64-node-v12.18.3.deb
 sudo apt-get install ./adopisoft-4.1.2-release-amd64-node-v12.18.3.deb
+
+### VERSION 5.1.1 ###
+wget -O adopisoft-5.1.1-amd64-node-v16.4.0.deb https://github.com/AdoPiSoft/Releases/releases/download/v5.1.1/adopisoft-5.1.1-amd64-node-v16.4.0.deb
+sudo apt-get install ./adopisoft-5.1.1-amd64-node-v16.4.0.deb
  
  
 sudo systemctl disable ssh
