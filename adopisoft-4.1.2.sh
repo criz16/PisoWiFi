@@ -16,12 +16,12 @@ dpkg --print-architecture
 sudo systemctl disable ssh
  
  
-wget https://gist.githubusercontent.com/alenteria/791dbe32175a01d1f1b602b25489ad22/raw/9a5aa879ac70d24bd9a7dd7f8ed97d7fe2c2f597/ado-psql-script.sh 
+#wget https://gist.githubusercontent.com/alenteria/791dbe32175a01d1f1b602b25489ad22/raw/9a5aa879ac70d24bd9a7dd7f8ed97d7fe2c2f597/ado-psql-script.sh 
  
-sudo chmod a+x ./ado-psql-script.sh
-sudo ./ado-psql-script.sh
+#sudo chmod a+x ./ado-psql-script.sh
+#sudo ./ado-psql-script.sh
 --- if the above command failed, try the following: ---
-bash ./ado-psql-script.sh
+#bash ./ado-psql-script.sh
  
  
 ip addr
