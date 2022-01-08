@@ -3,7 +3,8 @@
  
 sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install curl -y
-curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+#curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_1.x | sudo -E bash -
 sudo apt-get install -y nodejs python nginx bind9 isc-dhcp-server
 sudo apt-get install -y hostapd dmidecode build-essential openssh-server python-pip unzip bridge-utils
  
