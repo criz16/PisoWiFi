@@ -1,3 +1,6 @@
+#!/bin/bash
+###############################################################################################################
+
 timedatectl
 timedatectl set-timezone Asia/Manila
 sudo apt-get update && sudo apt-get upgrade -y
@@ -9,8 +12,7 @@ sudo apt-get install -y hostapd dmidecode build-essential openssh-server python3
 wget -O adopisoft-5.1.1-amd64-node-v16.4.0.deb https://github.com/AdoPiSoft/Releases/releases/download/v5.1.1/adopisoft-5.1.1-amd64-node-v16.4.0.deb
 sudo apt-get install ./adopisoft-5.1.1-amd64-node-v16.4.0.deb
 
-#Create posgressql account:
-
+echo "Create posgressql account:"
 wget -O ado-psql-script.sh https://gist.githubusercontent.com/alenteria/791dbe32175a01d1f1b602b25489ad22/raw/9a5aa879ac70d24bd9a7dd7f8ed97d7fe2c2f597/ado-psql-script.sh 
 sudo chmod a+x ./ado-psql-script.sh
 sudo ./ado-psql-script.sh
