@@ -9,8 +9,7 @@ sudo apt-get install curl -y
 sudo apt-get install -y nodejs
 sudo apt-get install -y nodejs python nginx bind9 isc-dhcp-server
 sudo apt-get install -y hostapd dmidecode build-essential openssh-server python3-pip unzip bridge-utils
-wget -O adopisoft-5.1.2-beta.5-amd64-node-v16.4.0.deb
-https://github.com/AdoPiSoft/Beta-Releases/releases/download/v5.1.2-beta.5/adopisoft-5.1.2-beta.5-amd64-node-v16.4.0.deb
+wget -O adopisoft-5.1.2-beta.5-amd64-node-v16.4.0.deb https://github.com/AdoPiSoft/Beta-Releases/releases/download/v5.1.2-beta.5/adopisoft-5.1.2-beta.5-amd64-node-v16.4.0.deb
 sudo apt-get install ./adopisoft-5.1.2-beta.5-amd64-node-v16.4.0.deb
 
 echo "Create posgressql account:"
